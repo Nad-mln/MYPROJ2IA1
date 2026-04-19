@@ -11,6 +11,7 @@ def user_input():
     Industrie = st.sidebar.slider('Proximité industrielle', 0.0, 10.0, 5.0)
     Population = st.sidebar.slider('Densité population', 0.0, 1000.0, 300.0)
 
+
     data = {
         'Temperature': Temperature,
         'Humidity': Humidity,
